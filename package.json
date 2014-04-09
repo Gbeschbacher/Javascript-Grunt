@@ -1,0 +1,50 @@
+{
+  "name": "angular-bootstrap-mmt",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Angular Express Web application",
+  "main": "index.js",
+  "devDependencies": {
+    "karma":"latest",
+    "grunt": "latest",
+    "grunt-mocha-test": "latest",
+    "grunt-env": "latest",
+    "grunt-karma": "latest",
+    "grunt-contrib-watch": "latest",
+    "mocha": "latest",
+    "karma-mocha": "latest",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-coffeelint": "0.0.7",
+    "chai": "~1.7.2",
+    "grunt-nodemon": "~0.1.1",
+    "grunt-concurrent": "~0.4.0",
+    "grunt-contrib-less": "~0.7.0"
+  },
+  "scripts": {
+    "prestart": "grunt development",
+    "start": "node index",
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meinKauf/content-portal.git"
+  },
+  "author": "mmt-b2011",
+  "contributors": [
+    "Michael Hettegger <mhettegger.mmt-b2011@fh-salzburg.ac.at>",
+    "Christoph Altmann <caltmann.mmt-b2011@fh-salzburg.ac.at>",
+    "Georg Eschbacher <geschbacher.mmt-b2011@fh-salzburg.ac.at>"
+  ],
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "~3.1.0",
+    "less-middleware": "*",
+    "jade": "~0.28.1",
+    "less": "1.3.x",
+    "loadfiles": "0.0.4"
+  }
+}
