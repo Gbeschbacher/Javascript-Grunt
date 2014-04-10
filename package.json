@@ -29,10 +29,6 @@
     "start": "node index",
     "test": "grunt test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/meinKauf/content-portal.git"
-  },
   "author": "mmt-b2011",
   "contributors": [
     "Michael Hettegger <mhettegger.mmt-b2011@fh-salzburg.ac.at>",
